@@ -5,6 +5,7 @@ import { LayoutModule } from "./ui/layout";
 import { HttpClientModule } from "@angular/common/http";
 import { AppRoutingModule } from "./app-routing.module";
 import { RouterOutlet } from "@angular/router";
+import { MarkdownModule } from "ngx-markdown";
 
 @NgModule({
   declarations: [AppComponent],
@@ -13,7 +14,8 @@ import { RouterOutlet } from "@angular/router";
     HttpClientModule,
     LayoutModule,
     AppRoutingModule,
-    RouterOutlet
+    RouterOutlet,
+    MarkdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent],

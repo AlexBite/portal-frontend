@@ -10,6 +10,7 @@ interface IQuestion {
   selector: 'portal-questions-list',
   templateUrl: './questions-list.component.html',
   styleUrls: ['./questions-list.component.scss'],
+  preserveWhitespaces: true
 })
 export class QuestionsListComponent {
   questions$ = this.http.get<IQuestion[]>('/api/questions');
