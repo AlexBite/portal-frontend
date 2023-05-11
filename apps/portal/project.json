@@ -54,7 +54,7 @@
         },
         "development": {
           "browserTarget": "portal:build:development",
-          "proxyConfig": "apps/portal/src/proxy.conf.json"
+          "proxyConfig": "apps/portal/proxy.conf.json"
         }
       },
       "defaultConfiguration": "development"
